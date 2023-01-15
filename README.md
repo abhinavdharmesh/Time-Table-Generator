@@ -19,7 +19,7 @@ This repository contains a Python script that generates a time table for a schoo
 
 - Only generates timetable for six days and eight periods
 
-- Could generate uneven period for some days 
+- Could generate more than eight periods for some days 
 
 - Periods could repeat more than two times in a day
 
