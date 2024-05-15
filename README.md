@@ -1,44 +1,60 @@
 # Time-Table-Generator
 
+This repository contains a Python script that generates a timetable for a school with SQL integration.
 
-This repository contains a Python script that generates a time table for a school with SQL integration.
-
-# Requirements
+## Requirements
 
 - Python 3.x
+- MySQL
 
-- SQL
+## Features
 
-# Features
-
-- Automatically generates a time table for six days
-
+- Automatically generates a timetable for six days
 - Uses MySQL to store the data
+- Optimized code for better performance and readability
 
-# Limitations
+## Limitations
 
 - Only generates timetable for six days and eight periods
 
-- Could generate more than eight periods for some days 
+## How to Use
 
-- Periods could repeat more than two times in a day
+1. Clone or download the file `ttg.py`.
+2. Install the required packages by running `pip install pymysql`.
+3. Run the script and input the required details such as the number of main subjects and extra subjects.
+4. The generated timetable will be saved in the MySQL database.
 
-# How to use
+### Step-by-Step Guide:
 
-- Clone or download the file ttg.py
+1. **Clone the Repository:**
+   ```sh
+   git clone <repository-url>
+   cd <repository-directory>
+   ```
 
-- Install the required packages by running pip install pymysql
+2. **Install Dependencies:**
+   ```sh
+   pip install pymysql
+   ```
 
-- Input the required details such as the number of main subjects and extra subjects 
+3. **Setup MySQL:**
+   Ensure you have MySQL installed and running. Create a database named `okp`:
+   ```sql
+   CREATE DATABASE okp;
+   ```
 
-- The generated time table will be saved in the MySQL database
+4. **Run the Script:**
+   ```sh
+   python ttg.py
+   ```
+   - Enter the required details when prompted, such as the number of main subjects and extra subjects.
 
-# Note
+## Note
 
-- Make sure you have MySQL CLI installed on your system
-
+- Make sure you have MySQL installed on your system.
 - This script is intended for educational purposes only and not for commercial use.
 
-# Contribution
+## Contribution
 
-If you have any suggestions or found any bugs, feel free to create an issue or create a pull request.
+If you have any suggestions or found any bugs, feel free to create an issue or submit a pull request.
+
