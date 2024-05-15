@@ -45,7 +45,7 @@ This repository contains a Python script that generates a timetable for a school
 
 4. **Run the Script:**
    ```sh
-   python ttg.py
+   python ttg (improvised).py
    ```
    - Enter the required details when prompted, such as the number of main subjects and extra subjects.
 
