@@ -38,7 +38,7 @@ This repository contains a Python script that generates a timetable for a school
    ```
 
 3. **Setup MySQL:**
-   Ensure you have MySQL installed and running. Create a database named `okp`:
+   Ensure you have MySQL installed and running. Create a database (I've named it okp):
    ```sql
    CREATE DATABASE okp;
    ```
